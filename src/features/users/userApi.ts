@@ -1,6 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import type { User } from './user.type';
 
+//user api for Crud
 export const userApi = createApi({
     reducerPath: 'api', // optional name for the reducer
     baseQuery: fetchBaseQuery({
