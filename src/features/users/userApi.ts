@@ -46,4 +46,5 @@ export const userApi = createApi({
     }),
 });
 
+//Use hook for CRUD
 export const { useGetUsersQuery, useAddUserMutation, useUpdateUserMutation, useDeleteUserMutation } = userApi;
